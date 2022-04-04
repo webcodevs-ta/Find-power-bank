@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react"
 
-const useFeedback = () => {
-    const [feedback, setFeedback] = useState([])
+const useFeedbacks = () => {
+    const [feedbacks, setFeedbacks] = useState([])
     useEffect(() => {
         fetch('fakeData.json')
         .then(res => res.json())
-        .then(data => setFeedback(data))
+        .then(data => setFeedbacks(data))
     }, [])
-    return [feedback, setFeedback]
+    return [feedbacks, setFeedbacks]
 }
-export default useFeedback;
+export default useFeedbacks;

@@ -5,3 +5,16 @@
 .damo-btn{
     border-radius: 20px;
 }
+.feedBack{ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+.review-btn{
+  display: flex;
+  justify-content: center;
+}
+.review-btn button{
+    border-radius: 10px;
+
+}

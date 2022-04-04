@@ -2,28 +2,47 @@
     {
       "id": 1,
       "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg",
-      "name": "Lenora Clarke"
+      "name": "Lenora Clarke",
+      "comment":"the better experience i got.",
+      "rating":"5-Star"
     },
     {
       "id":2,
       "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg",
-      "name": "Kelly Berry"
+      "name": "Kelly Berry",
+      "comment":"Wonderfull product.Long usges",
+      "rating":"4.5-Star"
     },
     {
       "id": 3,
-      "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg",      "name": "Jan Mendez"
+      "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg", 
+      "name": "Jan Mendez",
+      "comment":"very usefull product",
+      "rating":"5-Star"
+
     },
     {
       "id": 4,
-      "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg",      "name": "Whitney Stafford"
+      "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg",      
+      "name": "Whitney Stafford",
+      "comment":"This is a quality product",
+      "rating":"4.5-Star"
+
     },
     {
       "id": 5,
-      "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg",      "name": "Walls Brock"
+      "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg",      
+      "name": "Walls Brock",
+      "comment":"very usefull product",
+      "rating":"5-Star"
+
     },
     {
       "id": 6,
       "picture":"https://png.pngtree.com/png-vector/20201128/ourlarge/pngtree-pillow-png-image_2418094.jpg",    
-      "name": "Oneill Strong"
+      "name": "Oneill Strong",
+      "comment":"long lasting product",
+      "rating":"4-Star"
+
     }
   ]

@@ -2,9 +2,11 @@ import React from 'react';
 import './Products.css'
 import useFeedbacks from '../hooks/hook';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
+import { Link } from "react-router-dom";
 
 const Products = () => {
     const [feedbacks, setFeedback] = useFeedbacks([])
+  
     return (
         //products section
         <div>
@@ -42,10 +44,8 @@ const Products = () => {
                     }
 
                 </div>
-                <div className='review-btn'>
-                    <button className=' p-2 bg-green-400 text-xl mt-9'>
-                        All Reviews
-                    </button>
+                <div className='review-link-div' >
+                   <Link className='review-link' to="/reviews">show all button</Link>
                 </div>
 
             </div>

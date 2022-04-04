@@ -10,11 +10,12 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
 }
-.review-btn{
-  display: flex;
-  justify-content: center;
-}
-.review-btn button{
-    border-radius: 10px;
+.review-link-div{
+    margin-top: 15px;
 
+}
+.review-link{
+    background-color: rgb(72, 126, 72);
+    padding: 3px 30px;
+    border-radius: 5px;
 }

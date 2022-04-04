@@ -1,9 +1,12 @@
 import React from 'react';
-
-const Reviews = ({}) => {
+import './Reviews.css'
+const Reviews = (props) => {
+    const {name, comment, rating} = props.feedback
     return (
-        <div>
-            <h1>review</h1>
+        <div className='all-feedback'> 
+            <p>name:{name}</p>
+            <p>comment:{comment}</p>
+            <p>rating:{rating}</p>
         </div>
     );
 };

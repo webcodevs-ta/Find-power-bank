@@ -1,2 +1,2 @@
 # Power bank 
-"*" hadsib
+* hadsib

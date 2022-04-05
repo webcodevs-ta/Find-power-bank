@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='nav-container drop-shadow-lg '>
-            <div className='flex justify-center gap-16 py-5 text-2xl text-lime-700'>
+            <div className='link-container flex justify-center gap-16 py-5 text-2xl text-lime-700'>
                 <Link to="/home"></Link>
                 <Link to="/home">Home</Link>
                 <Link to="/reviews">Reviews</Link>

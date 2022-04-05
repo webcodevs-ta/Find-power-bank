@@ -1,7 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
 import { Bar, BarChart, Line, LineChart, Tooltip, XAxis, YAxis, } from 'recharts';
-
 const MyBarChart = () => {
     const [chart, setChart] = useState([])
     useEffect(() => {
@@ -13,7 +12,7 @@ const MyBarChart = () => {
     return (
         <div>
             <div>
-            <BarChart width={730} height={250} data={chart}>
+            <BarChart className='dashbord' width={400} height={250} data={chart}>
                 <XAxis dataKey="month"></XAxis>
                 <YAxis></YAxis>
                 <Bar dataKey="investment"></Bar>
@@ -21,7 +20,7 @@ const MyBarChart = () => {
             </BarChart>
             </div>
                 <div>
-                    <LineChart width={800} height={400} data={chart}>
+                    <LineChart width={400} height={400} data={chart}>
                         <Line dataKey="sell"></Line>
                         <Line dataKey="investment"></Line>
                         <XAxis datakey="month"></XAxis>

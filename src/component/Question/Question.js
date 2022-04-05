@@ -3,7 +3,7 @@ import './Question.css'
 const Question = () => {
     return (
         <div>
-            <h1 className='text-3xl'>MOST QUESTIONS</h1>
+            <h1 className='text-3xl font-bold'>MOST QUESTIONS</h1>
             <div className="questions-container">
 
                 <div className="question">

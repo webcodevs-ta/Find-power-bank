@@ -1,23 +1,45 @@
-.products-container{
+.products-container {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 25px;
 }
-.damo-btn{
+
+.pBank-dtails {
+    text-align: start;
+}
+
+.damo-btn {
     border-radius: 20px;
 }
-.feedBack{ 
+
+.feedBack {
     margin: 25px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 55px;
 }
-.review-link-div{
+
+.review-link-div {
     margin-top: 15px;
 
 }
-.review-link{
-    background-color: rgb(72, 126, 72);
+
+.review-link {
+    background-color: rgb(19, 120, 19);
+    color: white;
     padding: 3px 30px;
     border-radius: 5px;
+}
+
+@media only screen and (max-width:500px) {
+    .feedBack {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products-container {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

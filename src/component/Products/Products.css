@@ -1,14 +1,16 @@
 .products-container{
     display: grid;
     grid-template-columns: 3fr 2fr;
+    grid-gap: 25px;
 }
 .damo-btn{
     border-radius: 20px;
 }
 .feedBack{ 
+    margin: 25px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 5px;
+    grid-gap: 55px;
 }
 .review-link-div{
     margin-top: 15px;

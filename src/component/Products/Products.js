@@ -18,7 +18,7 @@ const Products = () => {
                         <span>Choose Your Best PowerBank</span><br />
                         <span>as Your Next Useges</span>
                     </p>
-                    <p className='mt-7 px-5 text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae delectus dolorem quia provident ratione doloremque quos maxime ipsam velit earum illum ipsa explicabo sapiente excepturi adipisci atque, repellat magnam laborum.
+                    <p className='mt-7 px-5 text-lg'>Benefit of portable power banks is their ability to provide stable power in times of need. Everyone is always online these days and most of these devices, like phones, laptops, cameras, etc. work daily, non-stop. Hence, these devices need constant power to keep up with the way the owners use them.
                     </p>
 
                     <button className='damo-btn p-8 bg-cyan-400 text-xl flex ml-20 mt-9'>

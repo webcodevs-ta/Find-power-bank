@@ -1,6 +1,6 @@
 # Power bank 
 ## Live site link
-
+https://luxury-kitsune-960264.netlify.app
 ### Descriptions 
 In this project axtually i build...
    * made  a product review site.

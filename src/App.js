@@ -5,6 +5,7 @@ import Header from './component/Header/Header';
 import Products from './component/Products/Products';
 import NotFound from './component/NotFound/NotFound';
 import AllReviews from './component/AllReviews/AllReviews';
+import MyBarChart from './component/MyBarChart/MyBarChart';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/home' element={<Products></Products>}></Route>
         <Route path='/reviews' element={<AllReviews></AllReviews>} ></Route>
+        <Route path='/dashboard' element={<MyBarChart></MyBarChart>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
